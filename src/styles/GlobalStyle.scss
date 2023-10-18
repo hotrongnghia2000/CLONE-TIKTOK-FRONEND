@@ -1,0 +1,47 @@
+:root {
+  --text: rgba(22, 24, 35, 1);
+  --primary: rgba(254, 44, 85, 1);
+  --light: rgba(255, 255, 255, 1);
+  --error: rgb(254, 44, 44);
+  //
+  --width-default: 1150px;
+  --video-height: calc(calc(450px + (100vw - 768px) / 1152 * 100));
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'ProximaNova', sans-serif;
+  color: var(--text-color);
+}
+
+// CUSTOM TIPPY TOOLTIP
+.tippy-box {
+  font-weight: 700;
+  padding: 4px;
+}
+
+// Config font
+@font-face {
+  font-family: ProximaNova;
+  src: url(../assets/fonts/Proxima-Nova-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(../assets/fonts/Proxima-Nova-Semibold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(../assets/fonts/Proxima-Nova-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: SofiaPro;
+  src: url(../assets/fonts/sofiapro-bold.woff2);
+  font-weight: 700;
+}
